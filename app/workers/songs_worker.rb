@@ -1,5 +1,5 @@
 class SongsWorker
-  include Sidekiq::Worker 
+  include Sidekiq::Worker
 
   def perform(songs_file)
 
